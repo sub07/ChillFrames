@@ -1,7 +1,7 @@
 ﻿using System;
 using Dalamud.Plugin.Ipc;
 
-namespace ChillFrames.Controllers;
+namespace ChillFramesModified.Controllers;
 
 public class IpcController : IDisposable {
     /// <summary>

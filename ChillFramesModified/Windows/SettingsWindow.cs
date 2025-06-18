@@ -2,8 +2,8 @@
 using System.Drawing;
 using System.Linq;
 using System.Numerics;
-using ChillFrames.Classes;
-using ChillFrames.Controllers;
+using ChillFramesModified.Classes;
+using ChillFramesModified.Controllers;
 using Dalamud.Interface;
 using Dalamud.Interface.Components;
 using Dalamud.Interface.Utility;
@@ -17,7 +17,7 @@ using KamiLib.Window.SelectionWindows;
 using Lumina.Excel.Sheets;
 using Window = KamiLib.Window.Window;
 
-namespace ChillFrames.Windows;
+namespace ChillFramesModified.Windows;
 
 public class SettingsWindow : Window {
     private int idleFramerateLimitTemp = int.MinValue;

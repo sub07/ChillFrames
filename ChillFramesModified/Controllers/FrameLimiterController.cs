@@ -2,10 +2,10 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using ChillFrames.Classes;
+using ChillFramesModified.Classes;
 using Dalamud.Plugin.Services;
 
-namespace ChillFrames.Controllers;
+namespace ChillFramesModified.Controllers;
 
 public enum LimiterState {
     Enabled,

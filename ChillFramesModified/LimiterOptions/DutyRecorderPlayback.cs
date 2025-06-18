@@ -1,7 +1,7 @@
-﻿using ChillFrames.Classes;
+﻿using ChillFramesModified.Classes;
 using KamiLib.Extensions;
 
-namespace ChillFrames.LimiterOptions;
+namespace ChillFramesModified.LimiterOptions;
 
 public class DutyRecorderPlayback : IFrameLimiterOption {
     public string Label => "Duty Recorder Playback";

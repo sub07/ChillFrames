@@ -1,7 +1,7 @@
-﻿using ChillFrames.Classes;
+﻿using ChillFramesModified.Classes;
 using KamiLib.Extensions;
 
-namespace ChillFrames.LimiterOptions;
+namespace ChillFramesModified.LimiterOptions;
 
 public class BardPerformance : IFrameLimiterOption {
     public string Label => "Bard Performance";

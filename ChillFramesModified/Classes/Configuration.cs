@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 using KamiLib.Configuration;
 using Lumina.Excel.Sheets;
 
-namespace ChillFrames.Classes;
+namespace ChillFramesModified.Classes;
 
 public class BlacklistSettings {
     public HashSet<uint> BlacklistedZones { get; set; } = [];

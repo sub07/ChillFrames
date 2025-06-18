@@ -1,16 +1,16 @@
 ﻿using System.Linq;
-using ChillFrames.Classes;
-using ChillFrames.Controllers;
-using ChillFrames.Windows;
+using ChillFramesModified.Classes;
+using ChillFramesModified.Controllers;
+using ChillFramesModified.Windows;
 using Dalamud.Plugin;
 using KamiLib.Classes;
 using KamiLib.CommandManager;
 using KamiLib.Window;
 
-namespace ChillFrames;
+namespace ChillFramesModified;
 
-public sealed class ChillFramesPlugin : IDalamudPlugin {
-    public ChillFramesPlugin(IDalamudPluginInterface pluginInterface) {
+public sealed class ChillFramesModifiedPlugin : IDalamudPlugin {
+    public ChillFramesModifiedPlugin(IDalamudPluginInterface pluginInterface) {
         pluginInterface.Create<Service>();
 
         // We need to disable these, so users can monitor the config window and see what conditions are active at what times.

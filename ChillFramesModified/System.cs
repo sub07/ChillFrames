@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using ChillFrames.Classes;
-using ChillFrames.Controllers;
+using ChillFramesModified.Classes;
+using ChillFramesModified.Controllers;
 using KamiLib.CommandManager;
 using KamiLib.Window;
 
-namespace ChillFrames;
+namespace ChillFramesModified;
 
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 public static class System {

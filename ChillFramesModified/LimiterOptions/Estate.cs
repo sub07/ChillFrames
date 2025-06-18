@@ -1,8 +1,7 @@
-﻿using ChillFrames.Classes;
+﻿using ChillFramesModified.Classes;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using KamiLib.Extensions;
 
-namespace ChillFrames.LimiterOptions;
+namespace ChillFramesModified.LimiterOptions;
 
 public unsafe class Estate : IFrameLimiterOption {
     public string Label => "Inside Estate";

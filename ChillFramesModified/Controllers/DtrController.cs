@@ -1,8 +1,8 @@
 ﻿using System;
 using Dalamud.Game.Gui.Dtr;
 using Dalamud.Game.Text.SeStringHandling;
-    
-namespace ChillFrames.Controllers;
+
+namespace ChillFramesModified.Controllers;
 
 public class DtrController : IDisposable {
     private readonly IDtrBarEntry dtrEntry;

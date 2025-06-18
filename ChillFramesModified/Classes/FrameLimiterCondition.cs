@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using KamiLib.Extensions;
 
-namespace ChillFrames.Classes;
+namespace ChillFramesModified.Classes;
 
 internal static class FrameLimiterCondition {
     public static bool IsBlacklisted 
